@@ -278,7 +278,7 @@ section {
 }
 
 .cheti-asosiy {
-    /* left: -500px; */
+    /* margin-left: -50px; */
     /* width: 30px; */
     margin-top: 15px;
     background-color: white;
@@ -358,24 +358,210 @@ button {
     color: white;
 }
 
+.text-rolli {
+    width: 348.11px;
+    height: 22.26px;
+    left: 365.04px;
+    top: 842.35px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
 
 .cards {
     margin-top: 30px;
     display: grid;
-    grid-template-areas:
-        'header header header header header header'
-        'menu main main main right right'
-        'menu footer footer footer footer footer';
-    gap: 10px;
-    /* background-color: #2196F3; */
-    padding: 10px;
+    /* grid-template-areas:
+        'card-1,card-2,card-3   ; */
+
+    gap: 4px;
+    padding: 3px;
 
 }
 
 .card-1 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
     background-image: url(../images/Rectangle\ 2.10\ \(1\).svg);
-    width:200px;
+    /* width: 99%; */
     height: 260px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.card-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(../images/Rectangle\ 2.163.png );
+    width: 96%;
+    height: 260px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+
+.card-3 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.card-4 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.card-5 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.card-6 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.card-7 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.card-8 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.card-9 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.card-10 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.card-11 {
+    background-image: url(../images/Rectangle\ 2.163.png );
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 260px;
+    /* border-radius: 5px; */
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.urtasi {
+    background-image: url(../images/655839-PP2S9E-256\ 1.png);
+    height: 190px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-end {
+    width: 1250px;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    /* margin-left: 40px; */
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.urtasi-2 {
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    /* text-align: center; */
+}
+
+.text-end-2 {
+    width: 578px;
+    height: 108px;
+    /* left: 220px;
+    top: 2012px; */
+    margin-top: 30px;
+    margin-right: 50%;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
 }
